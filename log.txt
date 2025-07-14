@@ -1,0 +1,63 @@
+[17:42:57] Servidor iniciado
+[17:43:45] Novo pedido: {'origem': 'P4', 'destino': 'D2', 'id': 'effa75d1'}
+[17:43:45] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D2', 'id': 'effa75d1'}
+[17:43:48] Drone1 finalizou entrega do pedido effa75d1
+[17:43:55] Novo pedido: {'origem': 'P4', 'destino': 'D4', 'id': '4ec054c0'}
+[17:43:57] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D4', 'id': '4ec054c0'}
+[17:43:57] Novo pedido: {'origem': 'P1', 'destino': 'D3', 'id': '26360a68'}
+[17:43:58] Pedido enviado para drone: {'origem': 'P1', 'destino': 'D3', 'id': '26360a68'}
+[17:44:00] Drone2 finalizou entrega do pedido 26360a68
+[17:44:01] Drone1 finalizou entrega do pedido 4ec054c0
+[17:44:05] Novo pedido: {'origem': 'P4', 'destino': 'D4', 'id': 'ce5e8c94'}
+[17:44:06] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D4', 'id': 'ce5e8c94'}
+[17:44:07] Novo pedido: {'origem': 'P4', 'destino': 'D2', 'id': '321cde43'}
+[17:44:10] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D2', 'id': '321cde43'}
+[17:44:11] Drone2 finalizou entrega do pedido ce5e8c94
+[17:44:12] Drone1 finalizou entrega do pedido 321cde43
+[17:44:15] Novo pedido: {'origem': 'P1', 'destino': 'D1', 'id': '57a54c29'}
+[17:44:15] Pedido enviado para drone: {'origem': 'P1', 'destino': 'D1', 'id': '57a54c29'}
+[17:44:17] Novo pedido: {'origem': 'P4', 'destino': 'D2', 'id': 'aa345e22'}
+[17:44:20] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D2', 'id': 'aa345e22'}
+[17:44:20] Drone1 finalizou entrega do pedido 57a54c29
+[17:44:25] Drone2 finalizou entrega do pedido aa345e22
+[17:44:25] Novo pedido: {'origem': 'P4', 'destino': 'D3', 'id': '06eb2408'}
+[17:44:26] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D3', 'id': '06eb2408'}
+[17:44:27] Novo pedido: {'origem': 'P4', 'destino': 'D1', 'id': '2228e35e'}
+[17:44:28] Pedido enviado para drone: {'origem': 'P4', 'destino': 'D1', 'id': '2228e35e'}
+[17:44:29] Drone1 finalizou entrega do pedido 06eb2408
+[17:44:32] Drone2 finalizou entrega do pedido 2228e35e
+[17:44:38] Novo pedido: {'origem': 'P3', 'destino': 'D5', 'id': 'c225b244'}
+[17:44:38] Pedido enviado para drone: {'origem': 'P3', 'destino': 'D5', 'id': 'c225b244'}
+[17:44:40] Drone2 finalizou entrega do pedido c225b244
+[08:54:55] Servidor iniciado
+[08:55:05] Servidor iniciado
+[08:59:41] Servidor iniciado
+[09:00:27] Novo pedido: {'origem': 'P1', 'destino': 'D2', 'id': '3a9379ed'}
+[09:00:28] Pedido enviado para drone: {'origem': 'P1', 'destino': 'D2', 'id': '3a9379ed'}
+[09:00:30] Drone1 finalizou entrega do pedido 3a9379ed
+[09:00:37] Novo pedido: {'origem': 'P1', 'destino': 'D5', 'id': '68d48031'}
+[09:00:38] Pedido enviado para drone: {'origem': 'P1', 'destino': 'D5', 'id': '68d48031'}
+[09:00:41] Drone2 finalizou entrega do pedido 68d48031
+[09:00:47] Novo pedido: {'origem': 'P5', 'destino': 'D4', 'id': '62992d40'}
+[09:00:48] Pedido enviado para drone: {'origem': 'P5', 'destino': 'D4', 'id': '62992d40'}
+[09:00:53] Drone1 finalizou entrega do pedido 62992d40
+[09:00:57] Novo pedido: {'origem': 'P5', 'destino': 'D2', 'id': 'caaf8906'}
+[09:00:59] Pedido enviado para drone: {'origem': 'P5', 'destino': 'D2', 'id': 'caaf8906'}
+[09:01:01] Drone2 finalizou entrega do pedido caaf8906
+[09:01:07] Novo pedido: {'origem': 'P5', 'destino': 'D1', 'id': 'd2a57e27'}
+[09:01:08] Pedido enviado para drone: {'origem': 'P5', 'destino': 'D1', 'id': 'd2a57e27'}
+[09:01:13] Drone1 finalizou entrega do pedido d2a57e27
+[09:03:48] Servidor iniciado
+[09:05:33] Novo pedido: {'origem': {'cidade': 'monte carmelo', 'cep': '3850000', 'rua': 'rua das ericas', 'numero': '31', 'bairro': 'cidade jardim'}, 'destino': {'cidade': 'monte carmelo', 'cep': '38500000', 'rua': 'aaa', 'numero': '11', 'bairro': 'bbb'}, 'id': '6ef4a20f'}
+[09:05:35] Pedido enviado para drone: {'origem': {'cidade': 'monte carmelo', 'cep': '3850000', 'rua': 'rua das ericas', 'numero': '31', 'bairro': 'cidade jardim'}, 'destino': {'cidade': 'monte carmelo', 'cep': '38500000', 'rua': 'aaa', 'numero': '11', 'bairro': 'bbb'}, 'id': '6ef4a20f'}
+[09:05:37] Drone1 finalizou entrega do pedido 6ef4a20f
+[09:06:53] Novo pedido: {'origem': {'cidade': 'monte carmelo', 'cep': '38500000', 'rua': 'rua das ericas', 'numero': '31', 'bairro': 'cidade jardim'}, 'destino': {'cidade': 'monte carmelo', 'cep': '38500000', 'rua': 'aaa', 'numero': '11', 'bairro': 'bbb'}, 'id': 'f6f95aed'}
+[09:06:54] Pedido enviado para drone: {'origem': {'cidade': 'monte carmelo', 'cep': '38500000', 'rua': 'rua das ericas', 'numero': '31', 'bairro': 'cidade jardim'}, 'destino': {'cidade': 'monte carmelo', 'cep': '38500000', 'rua': 'aaa', 'numero': '11', 'bairro': 'bbb'}, 'id': 'f6f95aed'}
+[09:06:58] Drone2 finalizou entrega do pedido f6f95aed
+[11:18:06] Servidor iniciado
+[11:19:04] Novo pedido ID c6797ee5: dd, 22 - dd - monte (33) -> ff, 33 - gj - monte (22)
+[11:19:05] Pedido enviado para drone: c6797ee5
+[11:19:07] drone1 finalizou entrega do pedido c6797ee5
+[11:31:49] Servidor iniciado
+[11:40:49] Servidor iniciado
+[11:45:38] Servidor iniciado
