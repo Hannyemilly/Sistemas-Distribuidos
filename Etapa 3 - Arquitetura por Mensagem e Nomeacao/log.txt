@@ -152,3 +152,8 @@
 [10:58:09] Conexão com ('127.0.0.1', 56630) (cliente) encerrada.
 [10:58:09] Pedido ef989590 ... atribuído ao drone droneb (Seleção Aleatória).
 [10:58:18] Drone 'droneb' finalizou pedido ef989590. Agora disponível em (5, 9).
+[11:09:38] Nova conexão: ('127.0.0.1', 55028)
+[11:09:38] Novo pedido recebido (ID: 76569bfc): P1 -> D4. Adicionado à fila.
+[11:09:38] Conexão com ('127.0.0.1', 55028) (cliente) encerrada.
+[11:09:38] Pedido 76569bfc ... atribuído ao drone droneb (Seleção Aleatória).
+[11:09:50] Drone 'droneb' finalizou pedido 76569bfc. Agora disponível em (9, 5).
