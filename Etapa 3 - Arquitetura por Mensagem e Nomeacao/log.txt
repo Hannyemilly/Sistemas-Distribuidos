@@ -157,3 +157,42 @@
 [11:09:38] Conexão com ('127.0.0.1', 55028) (cliente) encerrada.
 [11:09:38] Pedido 76569bfc ... atribuído ao drone droneb (Seleção Aleatória).
 [11:09:50] Drone 'droneb' finalizou pedido 76569bfc. Agora disponível em (9, 5).
+[13:44:06] Conexão com ('127.0.0.1', 56623) (visualizador) encerrada.
+[21:33:01] Registrado com sucesso no Servidor de Nomes como 'servico_entregas'
+[21:33:01] Servidor de Entregas escutando em localhost:5000
+[21:33:17] Nova conexão: ('127.0.0.1', 51930)
+[21:33:35] Nova conexão: ('127.0.0.1', 51933)
+[21:33:35] Drone 'drone1' registrado e disponível na base (0, 0).
+[21:33:49] Nova conexão: ('127.0.0.1', 51935)
+[21:33:49] Drone 'drone2' registrado e disponível na base (0, 0).
+[21:34:13] Nova conexão: ('127.0.0.1', 50096)
+[21:34:13] Novo pedido recebido (ID: adb66b0d): P1 -> D5. Adicionado à fila.
+[21:34:13] Conexão com ('127.0.0.1', 50096) (cliente) encerrada.
+[21:34:13] Pedido adb66b0d ... atribuído ao drone drone1 (Seleção Aleatória).
+[21:34:22] Drone 'drone1' finalizou pedido adb66b0d. Agora disponível em (5, 9).
+[21:34:43] Nova conexão: ('127.0.0.1', 50099)
+[21:34:43] Novo pedido recebido (ID: e5b377a4): P5 -> D1. Adicionado à fila.
+[21:34:43] Conexão com ('127.0.0.1', 50099) (cliente) encerrada.
+[21:34:43] Pedido e5b377a4 ... atribuído ao drone drone1 (Seleção Aleatória).
+[21:34:51] Drone 'drone1' finalizou pedido e5b377a4. Agora disponível em (1, 1).
+[21:35:14] Nova conexão: ('127.0.0.1', 50101)
+[21:35:14] Novo pedido recebido (ID: 3790dee3): P1 -> D3. Adicionado à fila.
+[21:35:14] Conexão com ('127.0.0.1', 50101) (cliente) encerrada.
+[21:35:14] Pedido 3790dee3 ... atribuído ao drone drone2 (Seleção Aleatória).
+[21:35:21] Drone 'drone2' finalizou pedido 3790dee3. Agora disponível em (3, 7).
+[21:35:36] Conexão com ('127.0.0.1', 51930) (visualizador) encerrada.
+[21:36:03] Nova conexão: ('127.0.0.1', 50110)
+[21:36:46] Erro com ('127.0.0.1', 51935) (drone2): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[21:36:46] Drone 'drone2' desconectado.
+[21:36:46] Conexão com ('127.0.0.1', 51935) (drone) encerrada.
+[21:36:48] Erro com ('127.0.0.1', 51933) (drone1): [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[21:36:48] Drone 'drone1' desconectado.
+[21:36:48] Conexão com ('127.0.0.1', 51933) (drone) encerrada.
+[21:37:06] Nova conexão: ('127.0.0.1', 50125)
+[21:37:06] Drone 'drone1' registrado e disponível na base (0, 0).
+[21:37:29] Nova conexão: ('127.0.0.1', 50127)
+[21:37:29] Novo pedido recebido (ID: a84633d2): P1 -> D5. Adicionado à fila.
+[21:37:29] Conexão com ('127.0.0.1', 50127) (cliente) encerrada.
+[21:37:29] Pedido a84633d2 ... atribuído ao drone drone1 (Seleção Aleatória).
+[21:37:38] Drone 'drone1' finalizou pedido a84633d2. Agora disponível em (5, 9).
+[21:37:44] Conexão com ('127.0.0.1', 50110) (visualizador) encerrada.
