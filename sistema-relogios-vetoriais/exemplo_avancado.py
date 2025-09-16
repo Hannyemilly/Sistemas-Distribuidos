@@ -7,14 +7,14 @@ def exemplo_cadeia_complexa():
     """
     Exemplo mais complexo demonstrando uma cadeia causal longa.
     """
-    print("\n🔗 EXEMPLO AVANÇADO: CADEIA CAUSAL COMPLEXA")
+    print("\n EXEMPLO AVANÇADO: CADEIA CAUSAL COMPLEXA")
     print("="*60)
     
     # Sistema com 4 processos
     simulador = SimuladorSistemaDistribuido(4)
     
     # Sequência de eventos causalmente relacionados
-    print("\n📅 Sequência de eventos:")
+    print("\n Sequência de eventos:")
     print("1. P0 executa evento interno")
     simulador.executar_evento_interno(0, "Inicialização do sistema")
     
@@ -33,7 +33,7 @@ def exemplo_cadeia_complexa():
     simulador.executar_evento_interno(3, "Finalização")
     
     # Análises de causalidade
-    print("\n🔍 ANÁLISES DE CAUSALIDADE:")
+    print("\n ANÁLISES DE CAUSALIDADE:")
     
     # Evento inicial vs evento final (deve ser "antes")
     print("\n1. Inicialização (P0) vs Finalização (P3):")
@@ -48,14 +48,14 @@ def exemplo_concorrencia_multipla():
     """
     Exemplo demonstrando múltiplos eventos concorrentes.
     """
-    print("\n🌐 EXEMPLO AVANÇADO: MÚLTIPLOS EVENTOS CONCORRENTES")
+    print("\n EXEMPLO AVANÇADO: MÚLTIPLOS EVENTOS CONCORRENTES")
     print("="*60)
     
     # Sistema com 4 processos
     simulador = SimuladorSistemaDistribuido(4)
     
     # Eventos simultâneos em processos diferentes (sem comunicação)
-    print("\n📅 Eventos concorrentes simultâneos:")
+    print("\n Eventos concorrentes simultâneos:")
     print("1. Cada processo executa um evento independente")
     
     simulador.executar_evento_interno(0, "Tarefa A - Cálculo matemático")
@@ -63,7 +63,7 @@ def exemplo_concorrencia_multipla():
     simulador.executar_evento_interno(2, "Tarefa C - Acesso ao banco")
     simulador.executar_evento_interno(3, "Tarefa D - Processamento de imagem")
     
-    print("\n🔍 ANÁLISES DE CONCORRÊNCIA:")
+    print("\n ANÁLISES DE CONCORRÊNCIA:")
     
     # Comparações entre eventos concorrentes
     print("\n1. Tarefa A vs Tarefa C:")
@@ -80,7 +80,7 @@ def main():
     """
     Executa os exemplos avançados.
     """
-    print("🧪 EXEMPLOS AVANÇADOS DE RELÓGIOS VETORIAIS")
+    print(" EXEMPLOS AVANÇADOS DE RELÓGIOS VETORIAIS")
     print("="*60)
     
     # Exemplo 1: Cadeia causal complexa
@@ -90,8 +90,8 @@ def main():
     
     # Exemplo 2: Múltiplos eventos concorrentes
     exemplo_concorrencia_multipla()
-    
-    print("\n🎯 EXEMPLOS AVANÇADOS CONCLUÍDOS!")
+
+    print("\n EXEMPLOS AVANÇADOS CONCLUÍDOS!")
     print("="*60)
 
 

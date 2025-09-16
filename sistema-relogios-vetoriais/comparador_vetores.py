@@ -58,13 +58,13 @@ def exibir_comparacao(evento1_info, evento2_info, relacao):
     print(f"  Relógio Vetorial: {evento2_info['relogio']}")
     
     if relacao == "antes":
-        print(f"\n✅ RESULTADO: O evento '{evento1_info['nome']}' aconteceu ANTES do evento '{evento2_info['nome']}'")
+        print(f"\n RESULTADO: O evento '{evento1_info['nome']}' aconteceu ANTES do evento '{evento2_info['nome']}'")
         print("   (Existe uma relação de causalidade: evento1 → evento2)")
     elif relacao == "depois":
-        print(f"\n✅ RESULTADO: O evento '{evento1_info['nome']}' aconteceu DEPOIS do evento '{evento2_info['nome']}'")
+        print(f"\n RESULTADO: O evento '{evento1_info['nome']}' aconteceu DEPOIS do evento '{evento2_info['nome']}'")
         print("   (Existe uma relação de causalidade: evento2 → evento1)")
     else:
-        print(f"\n🔄 RESULTADO: Os eventos '{evento1_info['nome']}' e '{evento2_info['nome']}' são CONCORRENTES")
+        print(f"\n RESULTADO: Os eventos '{evento1_info['nome']}' e '{evento2_info['nome']}' são CONCORRENTES")
         print("   (Não existe relação de causalidade entre eles)")
     
     print("="*60)

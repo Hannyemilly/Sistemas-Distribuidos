@@ -22,7 +22,7 @@ class SimuladorSistemaDistribuido:
             processo = Processo(i, num_processos)
             self.processos.append(processo)
         
-        print(f"🚀 Sistema distribuído inicializado com {num_processos} processos")
+        print(f" Sistema distribuído inicializado com {num_processos} processos")
         print("="*60)
     
     def enviar_mensagem_entre_processos(self, id_origem, id_destino, nome_evento):
@@ -63,7 +63,7 @@ class SimuladorSistemaDistribuido:
         """
         Exibe o estado atual de todos os processos.
         """
-        print("\n📊 ESTADO ATUAL DOS PROCESSOS:")
+        print("\n ESTADO ATUAL DOS PROCESSOS:")
         print("-" * 40)
         for processo in self.processos:
             print(processo)
@@ -97,14 +97,14 @@ def main():
     """
     Função principal que executa os cenários de teste.
     """
-    print("🎯 SIMULADOR DE RELÓGIOS VETORIAIS")
+    print(" SIMULADOR DE RELÓGIOS VETORIAIS")
     print("Análise de Causalidade em Sistemas Distribuídos")
     print("="*60)
     
     # Criar sistema com 3 processos
     simulador = SimuladorSistemaDistribuido(3)
     
-    print("\n🔄 CENÁRIO 1: DEMONSTRANDO CADEIA CAUSAL")
+    print("\n CENÁRIO 1: DEMONSTRANDO CADEIA CAUSAL")
     print("="*60)
     
     # Evento A em P0
@@ -117,11 +117,11 @@ def main():
     simulador.executar_evento_interno(1, "Evento B")
     
     # Comparar eventos A e B
-    print("\n🔍 Comparando Evento A (P0) com Evento B (P1):")
+    print("\n Comparando Evento A (P0) com Evento B (P1):")
     relacao1 = simulador.comparar_eventos(0, 0, 1, 1)  # Evento A vs Evento B
     
     print("\n" + "="*60)
-    print("\n🔄 CENÁRIO 2: DEMONSTRANDO EVENTOS CONCORRENTES")
+    print("\n CENÁRIO 2: DEMONSTRANDO EVENTOS CONCORRENTES")
     print("="*60)
     
     # Reinicializar para cenário limpo
@@ -134,15 +134,15 @@ def main():
     simulador.executar_evento_interno(2, "Evento Y")
     
     # Comparar eventos X e Y (devem ser concorrentes)
-    print("\n🔍 Comparando Evento X (P0) com Evento Y (P2):")
+    print("\n Comparando Evento X (P0) com Evento Y (P2):")
     relacao2 = simulador.comparar_eventos(0, 0, 2, 0)  # Evento X vs Evento Y
     
     # Estado final dos processos
     simulador.obter_estado_processos()
     
-    print("\n🎉 SIMULAÇÃO CONCLUÍDA!")
+    print("\n SIMULAÇÃO CONCLUÍDA!")
     print("="*60)
-    print("📋 RESUMO DOS RESULTADOS:")
+    print(" RESUMO DOS RESULTADOS:")
     print(f"   • Cenário 1 (Cadeia Causal): Relação '{relacao1.upper()}'")
     print(f"   • Cenário 2 (Concorrência): Relação '{relacao2.upper()}'")
     print("="*60)
